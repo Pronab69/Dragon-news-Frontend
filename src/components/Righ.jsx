@@ -31,15 +31,15 @@ const withGoogle=()=>{
 <b>Find us on</b>
 
 <a className="btn  w-full bg-base-300 text-black border-black">
-  <img src="../../public/fb.png" alt="" />
+  <img src="fb.png" alt="" />
   Facebook
 </a>
 <a className="btn w-full bg-base-300 my-1 text-black border-black">
-<img src="../../public/twitter.png" alt="" />
+<img src="twitter.png" alt="" />
   Twitter
 </a>
 <a className="btn w-full bg-base-300  text-black border-black">
-<img src="../../public/instagram.png" alt="" />
+<img src="instagram.png" alt="" />
   Instragram
 </a>
 </div>

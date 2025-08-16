@@ -30,7 +30,7 @@ const Head = () => {
   : null // or "Please log in", or nothing
 }
 
-             <img className='w-10 h-10' src=  {cuser?.photoURL?cuser.photoURL:"../../public/demo-user.png"}  alt="" />
+             <img className='w-10 h-10' src=  {cuser?.photoURL?cuser.photoURL:"demo-user.png"}  alt="" />
             {cuser? <button onClick={signout} className='btn bg-[#403F3F] text-white'>Sign out</button>:   <Link to={"/log"} className='btn bg-[#403F3F] text-white'>Login</Link>}
             
          </div>
